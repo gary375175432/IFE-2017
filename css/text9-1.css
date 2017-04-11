@@ -1,0 +1,527 @@
+*{
+	margin: 0;
+	padding:0;
+}
+html,body{
+	min-width: 1276px;
+}
+header{
+	height: 57px;
+	background-color: rgb(33,137,192);
+}
+header>img{
+	margin-top: 6px;
+	margin-left: 50px;
+}
+header div{
+	float: right;
+	position: relative;
+}
+header>div input:nth-child(1){
+	background:url("text9-3.jpg")  no-repeat ;
+	width: 22px;
+	height: 24px;	
+	border:none;
+	margin-left: 10px;
+	margin-top: 2px;
+	position: absolute;
+	right: 405px;
+	top:12px;
+}
+header>div input:nth-child(2){		
+	width: 248px;
+	height:28px;
+	border:none;
+	background:rgb(255,255,255);		
+	border-top-left-radius: 5% 50%;
+	border-top-right-radius: 5% 50%;
+	border-bottom-left-radius: 5% 50%;
+	border-bottom-right-radius: 5% 50%;	
+	margin-right: 156px;
+	margin-top: 12px;
+	padding-left: 29px;		
+}
+header>div>a{
+	position: absolute;
+	right: 80px;
+	top:15px;
+}
+aside{
+	background:rgb(43,46,61);
+	width: 260px;
+	height: 1327px;
+	padding-top:1px;
+	float: left;
+}
+aside>div:nth-child(1)>div{
+	width: 60px;
+	height: 60px;
+	border: 1px solid rgb(185,186,190);
+	border-radius: 50%;
+	margin-left: 45px;
+	margin-top: -36px;
+}
+aside>div:nth-child(1)>div>div{
+	width: 54px;
+	height: 54px;
+	border-radius: 50%;
+    background-color: rgb(185,186,190);
+    margin:3px;  
+}
+aside>div:nth-child(1)>p{
+	color: rgb(185,186,190);
+	font-size: 15px;
+    text-align: right;
+    margin-right: 90px;
+    margin-top: 36px;
+}
+aside>dl{
+	float: left;
+	color: rgb(100,117,135);	
+}
+aside>dl:nth-child(2){
+	margin:23px 1px 26px 64px;
+	padding-right: 26px;
+	border-right: 1px solid rgba(185,186,190,0.5);
+}
+aside>dl:nth-child(3){
+	margin:23px 64px 26px 26px;
+}
+
+aside>div:nth-child(5){
+	margin-left: 45px;
+}
+
+aside>div:nth-child(4){
+	width: 180px;
+	margin: 0 auto;
+	color: rgb(112,128,151);
+}
+aside>div:nth-child(4) div{
+	margin: 19px;
+}
+#oneb{	
+	background-color: rgb(55,61,77);
+	width: 180px;
+	padding:30px 34px 5px;
+	margin-top: -53px;
+	margin-left: -34px;
+}
+main>div{
+  height: 27px;  
+}
+main>div>p{
+	color: rgb(198,198,198);
+	line-height: 27px;
+	margin-left:290px;
+}
+main>div>p span{
+	color:  rgb(33,137,192);
+} 
+section{
+  margin-left: 260px;	
+  width: 1020px;
+  height: 1300px;
+  background-color:rgb(238,238,238);
+  padding-top:1px;
+}
+.onebox{
+	width: 894px;
+	height: 84px;
+	background-color: white;
+	margin: 20px auto 5px;
+}
+.onebox dl{
+	color: rgb(222,222,222);
+	margin: 10px 30px 0px;
+	float: left;
+}
+.onebox dl dd select{
+	border-color: rgb(238,238,238);
+	height: 22px;
+	margin:8px 0 0;
+}
+.onebox dl:nth-child(2) dd select{
+    width: 118px;
+}
+.onebox dl:nth-child(3){
+	margin-left: 80px;
+}
+
+.onebox dl:nth-child(3) dd:nth-child(1) select:nth-child(1) {
+    width: 107px;
+}
+.onebox dl:nth-child(3) dd:nth-child(1) select:nth-child(2) {
+    width: 60px;
+}
+.onebox dl:nth-child(3) dd:nth-child(2) select:nth-child(2) {
+    width:113px;
+}
+.onebox>img{
+	margin-left: -400px;
+	margin-top:25px;
+}
+.onebox>input{
+	color: white;
+	display: block;
+	margin-left: 360px;
+	margin-top: -35px;
+	border:transparent;
+	background:rgb(58,137,194);
+	width: 53px;
+	height: 24px;
+}
+.twobox{
+	width: 905px;
+	margin: 0 auto;
+}
+.twobox ul li{
+	float: left;
+	list-style: none;
+	margin: 0 5px; 
+	background-color: white;
+}
+.twobox ul li:nth-child(1){
+	width: 32px;
+	height: 60px;
+	text-align:center;
+	line-height: 60px;
+}
+.twobox ul li:nth-last-child(2){
+	width: 32px;
+	height: 60px;
+	text-align:center;
+	line-height: 60px;
+}
+.twobox ul li:nth-last-child(1){
+	width: 110px;
+	height: 60px;	
+	background: url(9-17.jpg) white no-repeat 0 5px; 
+	text-align:right;
+	line-height: 60px;
+    padding-right: 21px;
+}
+.twobox .moneybox{
+	height: 60px;
+	width:103px;
+	text-align:center;
+	line-height: 30px;
+}
+.twobox .moneybox:hover{
+	border-top:2px solid blue;
+}
+.twobox .moneybox span:nth-child(2){
+	color: rgb(169,169,169);
+	margin-left: 10px;
+}
+.twobox .moneybox span:nth-child(3){
+	color: rgb(237,101,2);
+	font-size: 22px;
+}
+section>p{
+	width: 120px;
+	margin-top: 80px;
+	margin-left: 60px;
+}
+.threebox{
+	width: 930px;
+	margin: 0 auto;
+}
+.threebox ul li{
+	float: left;
+	width: 203px;
+	height:70px;
+	background: white;
+	list-style: none;
+	margin:0px 12px;	
+}
+.threebox ul li:nth-child(1){
+	border-left:3px solid green;
+
+}
+.threebox ul li:nth-child(2){
+	border-left:3px solid blue;
+}
+.threebox ul li:nth-child(3){
+	border-left:3px solid red;
+}
+.threebox ul li:nth-child(4){
+	border-left:3px solid yellow;
+}
+.threebox ul li:nth-child(1) div{
+	width: 62px;
+	height:44px;
+	background-color: green;
+	float: right;
+	margin-right:10px;
+	margin-top:10px;
+}
+.threebox ul li:nth-child(2) div{
+	width: 62px;
+	height:44px;
+	background-color: blue;
+	float: right;
+	margin-right:10px;
+	margin-top:10px;
+}
+.threebox ul li:nth-child(3) div{
+	width: 62px;
+	height:44px;
+	background-color: red;
+	float: right;
+	margin-right:10px;
+	margin-top:10px;
+}
+.threebox ul li:nth-child(4) div{
+	width: 62px;
+	height:44px;
+	background-color: yellow;
+	float: right;
+	margin-right:10px;
+	margin-top:10px;
+}
+.threebox ul li span{
+	display: block;
+	margin: 10px 10px 
+}
+.threebox ul li span:nth-child(4){
+	margin-top: -20px;
+	color:rgb(201,201,201);
+	font-size: 12px;
+}
+.fourbox{
+	width: 351px;
+	height: 351px;
+	float: right;
+	background: white;
+	border-radius: 15px;
+	margin-top: 14px;
+	margin-right: 63px;
+	border:1px solid rgb(200,201,206);
+}
+.fourbox div:nth-child(1){
+	height:40px; 
+	background:rgb(244,245,247);
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	line-height: 40px;
+	padding-left: 20px;
+}
+.fourbox dl{
+	width: 238px;
+	margin:0 auto;
+}
+.fourbox dl dd span{
+	color: rgb(212,212,212);
+}
+.fourbox dl:nth-child(2){
+    margin-top: 10px;
+}
+.fourbox hr:nth-child(3){
+	width: 238px;
+	margin: 0 auto;	
+}
+.fourbox dl:nth-child(5){
+	margin-top: -37px;
+	margin-left: 150px;
+	padding-left: 5px;
+	border-left:1px solid rgb(154,154,154);
+}
+.fourbox hr:nth-child(6){
+	width: 294.5px;
+	margin-left: 56.5px;
+}
+.fourbox hr:nth-child(8){	
+	width: 238px;
+	margin: 0 auto;
+	margin-top: 110px;
+}
+.fourbox span:nth-last-child(2){
+	color: rgb(212,212,212);	
+	line-height: 40px;
+}
+.fourbox input:nth-last-child(3){
+	margin-left: 56.5px;
+}
+.fourbox input:nth-last-child(1){
+	color: white;	
+	border:transparent;
+	background:rgb(58,137,194);
+	width: 53px;
+	height: 24px;
+	margin-left: 70px;
+}
+.fivebox{
+	width: 536px;
+	height:351px;
+	background-color: white;
+	border-radius: 15px;
+	border:1px solid rgb(200,201,206);
+	margin-top: 85px;
+	margin-left: 57px;
+}
+.fivebox div:nth-child(1){
+    height:40px; 
+	background:rgb(244,245,247);
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	line-height: 40px;
+	padding-left: 20px;
+}
+.fivebox input{
+   opacity: 0;
+}
+.fivebox label{	
+	background-color:rgb(237,237,241);
+	width: 80px;
+	height: 23px;
+	text-align: center;
+	display: block;
+	float: left;
+	margin: 11px 3px 0px 0px;
+}
+.fivebox label:nth-child(3){
+	margin-left: 20px;
+	border: 1px solid rgb(209,209,209);	
+}
+.fivebox div:nth-last-child(1){
+	width: 490px;
+	height: 250px;
+	border: 1px solid rgb(209,209,209);
+    margin-top:16px;
+    margin-left: 20px;  
+	position: relative;
+}
+.fivebox div table{
+	position: absolute;
+	top:30px;
+	left: 30px;
+	border-collapse:collapse;
+	opacity: 0;  
+}
+.fivebox div table tr td{
+	font-size: 15px;
+	width:101px;
+    height: 28px;
+    padding-left: 10px;
+    border: 1px solid rgb(209,209,209);
+}
+.fivebox label:hover {
+	background-color:rgb(237,237,241);
+}
+.fivebox input:checked + label{
+	background-color: white;
+	border-bottom:transparent;
+}
+.fivebox input:nth-child(2):checked ~  div>table:nth-child(1),
+.fivebox input:nth-child(4):checked ~  div>table:nth-child(2),
+.fivebox input:nth-child(6):checked ~  div>table:nth-child(3),
+.fivebox input:nth-child(8):checked ~  div>table:nth-child(4),
+.fivebox input:nth-child(10):checked ~ div>table:nth-child(5){
+   opacity: 0.7;   
+}
+.sixbox{
+	width: 531px;
+	height: 353px;
+	float: right;
+	background: white;
+	margin-right: 63px;
+	border-radius:15px;
+	margin-top: 14px;
+}
+.sixbox div:nth-child(1){
+    height:40px; 
+	background:rgb(244,245,247);
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	line-height: 40px;
+	padding-left: 20px;
+}
+.sixbox>table{
+	margin-top: 20px;
+	margin-left: 40px;
+	border-collapse:collapse;	
+}
+.sixbox>table tr td{
+	border: 1px solid rgb(203,203,203);		
+}
+.sixbox>table tr td:nth-child(1){
+	width: 70px;
+	text-align: center;
+}
+.sixbox>table tr td:nth-child(2){
+	width: 92px;
+	text-align: center;
+}
+.sixbox>table tr td:nth-child(3){
+	width: 248px;
+	padding-left: 40px;
+}
+.sixbox>table tr:hover{
+	background-color: rgb(244,245,247);
+}
+.sevenbox{
+	width: 350px;
+	height: 353px;
+	background-color: white;
+	border-radius: 15px;
+	border:1px solid rgb(200,201,206);	
+	margin-left: 57px;
+	margin-top: 13px;
+}
+.sevenbox div:nth-child(1){
+    height:40px; 
+	background:rgb(244,245,247);
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	line-height: 40px;
+	padding-left: 20px;
+}
+.sevenbox ul{
+	margin: 10px 0  10px 18px;
+}
+.sevenbox ul li{
+	float: left;
+	list-style: none;
+	margin-left: 6px
+}
+.sevenbox ul li:nth-child(1) select{
+	width: 66px;
+}
+.sevenbox ul li:nth-child(2) select{
+	width: 83px;
+	padding-left:20px; 
+}
+.sevenbox ul li:nth-child(3) select{
+	width: 79px;
+}
+.sevenbox ul li:nth-child(4) input{	
+	width: 62px;
+	height: 21px;
+	background: white;
+	border: 1px solid rgb(136,136,136);
+}
+.sevenbox>hr{
+	border:1px solid blue ;
+	width: 309px;
+	margin:40px auto 10px;
+}
+.sevenbox>table{
+	margin-left: 24px;
+	margin-top:8px;
+	border-collapse:collapse;
+}
+.sevenbox table tr th{
+	border-bottom: 1px solid rgb(136,136,136);
+    padding: 0 13px 13px;
+}
+.sevenbox table tr td{
+	text-align: center;
+	padding-top: 3px;
+}
+.sevenbox table tr td span{
+	color: red;
+}
+.sevenbox table tr td:hover{
+	border: 1px solid yellow;
+}

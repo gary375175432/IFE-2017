@@ -1,0 +1,113 @@
+*{
+	margin: 0; 
+	padding: 0;
+}
+html,body{
+	min-width: 971px;
+}
+.biaotou{
+	height:54px; 
+	background: black;
+	background-image:url(text2-1.png);
+	background-repeat : no-repeat;
+	position:relative;
+	}
+header>ul li{
+	float:left;
+	margin:10px;
+	color: grey;
+ }
+ header>ul{
+ 	position:absolute;
+ 	right:10px;
+    top:10PX;
+ }
+ header>ul li>a{
+ 	color: white;
+ 	size: 10px;
+ 	text-decoration:none;
+ }
+ header>ul li>a:active{
+ 	color: grey;
+ }
+ section{
+ 	background-color: grey;
+ 	padding-top:1px;
+ 	padding-bottom: 1px;
+ 	position: relative;
+}
+.firstbox,.sectionbox,.thirdbox,.fourthbox,.fifthbox{	
+	background-color: white;
+	padding: 22px;
+	margin: 22px  620px 22px 22px;
+	box-shadow: 3px 3px 0 0 black;
+}
+
+.sectionbox>ul li{
+    list-style-type:none;
+    margin-left: 50px;
+    margin-top:10px;
+}
+.thirdbox {
+	overflow:hidden;
+	zoom: 1;
+}
+.thirdbox div dl{
+	width: 350px;
+    height: 240px;
+	border: 1px solid black;
+	margin:10pX; 
+	
+}
+.thirdbox div dl dt{
+	text-align: center;
+
+}
+.thirdbox div{
+	float: left;
+}
+
+.fourthbox>table{
+	width: 100%
+}
+.fourthbox>ol{
+	margin-left: 50px
+}
+.fourthbox>table tr th{
+	background-color: black;
+    color: white;
+    text-align: left;
+}
+.fourthbox>table tr:nth-last-child(1){
+	background-color: grey;
+}
+.fifthbox{
+    width: 540px;	
+	height: 280px;
+	position: absolute;
+	top:2px;
+	right: -600px;
+	overflow:hidden;
+}
+.sixthbox{
+    width: 330px;	
+	margin:0 auto;	
+}
+.sixthbox>form>table tr td{
+	padding-right: 10px;
+}
+.qijiao{  
+  width:90%;
+  height: 40PX;
+  background-color: blue;
+  position: absolute;	
+  left: 5%;
+  color: white;
+  border-radius: 15px;
+}
+footer{
+	background-color: black;
+	color: white;
+	padding: 24px 0px;
+	text-align: center;
+}
