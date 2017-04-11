@@ -1,0 +1,70 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>任务五：基础JavaScript练习（二）</title>
+    <style> 
+    
+    ul>li{             
+      width: 20px;   
+      margin: 10px;
+      text-align: center;
+      background:red;
+      display: inline-block;
+      vertical-align: bottom;
+        }
+    </style>
+  </head>
+<body>
+  <input type="text" id="texIn">  
+  <button id="leftIn" onclick="leftInbox()">左侧进入</button>
+  <button id="rightIn" onclick="rightInbox()">右侧进入</button>
+  <button id="leftOut" onclick="leftOutbox()">左侧输出</button>
+  <button id="sortOut" onclick="rightOutbox()">右侧输出</button>
+  <ul id="redbox"></ul>
+<script type="text/javascript">
+function leftInbox(){  
+  var a=document.getElementById("texIn").value;   
+  var b=document.createElement('li');
+  var c=document.getElementById("redbox") ; 
+  document.getElementById("redbox").insertBefore(b,c.childNodes[0]);  
+  if(a<10||a>100||isNaN(a)){
+    alert("请输入10-100数字")
+  } 
+   else{
+     b.style.height=a;
+
+  }
+  var c=redbox.childNodes;
+  if(c.length>60){
+    alert("不要再点了")
+  }   
+}
+function rightInbox(){  
+ var a=document.getElementById("texIn").value;   
+  var b=document.createElement('li');  
+  document.getElementById("redbox").appendChild(b);      
+  if(a<10||a>100||isNaN(a)){
+    alert("请输入10-100数字")    
+  }
+  else{
+     b.style.height=a;
+  } 
+  var c=redbox.childNodes;
+  if(c.length>60){
+    alert("不要再点了")
+  }   
+}
+ function leftOutbox() {     
+     var a= redbox.childNodes;
+     alert(a[0].offsetHeight); 
+     redbox.removeChild(a[0]);   
+ }
+ function rightOutbox() {     
+     var a= redbox.childNodes;
+     alert(a[a.length-1].offsetHeight);  
+     redbox.removeChild(a[a.length-1]);         
+ }
+</script>
+</body>
+</html>

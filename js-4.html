@@ -1,0 +1,57 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>任务四：基础JavaScript练习（一）</title>
+    <style>
+    ul>li{ 
+      list-style-type:none;
+      padding: 10px; 
+      margin: 10px;
+      text-align: center;
+      background:red;
+      float:left;
+    }
+    </style>
+  </head>
+<body>
+  <input type="text" id="texIn">
+  <button id="leftIn" onclick="leftInbox()">左侧进入</button>
+  <button id="rightIn" onclick="rightInbox()">右侧进入</button>
+  <button id="leftOut" onclick="leftOutbox()">左侧输出</button>
+  <button id="sortOut" onclick="rightOutbox()">右侧输出</button>
+  <ul id="redbox"></ul>
+<script type="text/javascript">
+function rightInbox(){  
+ var a=document.getElementById("texIn").value;   
+  var b=document.createElement('li');    
+  b.innerHTML=a;
+  document.getElementById("redbox").appendChild(b);  
+}
+function leftInbox(){  
+ var a=document.getElementById("texIn").value;   
+  var b=document.createElement('li');
+  var c=document.getElementById("redbox").childNodes; 
+  b.innerHTML=a; 
+  if(c.length==0){
+       document.getElementById("redbox").appendChild(b);
+      }
+      else{
+        document.getElementById("redbox").insertBefore(b,c[0]);
+      }
+    }
+ function rightOutbox() { 
+    var a=document.getElementById("redbox");
+      var b=document.getElementById("redbox").childNodes;     
+      alert(b[b.length-1].innerHTML);
+      a.removeChild(b[b.length-1]);             
+ }
+ function leftOutbox() {   
+     var a=document.getElementById("redbox");
+      var b=document.getElementById("redbox").childNodes;     
+      alert(b[0].innerHTML);
+      a.removeChild(b[0]);           
+ }
+</script>
+</body>
+</html>
