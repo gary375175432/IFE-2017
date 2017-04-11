@@ -1,0 +1,32 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+div{
+	margin: 10px 0px 0px 40px;
+}
+label{
+	padding: 10px;
+	font-weight: bold;
+}
+input{
+	width: 688px;
+	height: 44px;
+	border-radius: 10px;
+	border:1px solid #999;
+	font-size: 15px;	
+}
+p{
+	margin-left: 95px;
+	padding: 5px;
+	color: #999;
+}
+button{
+    height: 44px;
+    width: 68px;
+    background: blue;
+    border: transparent;
+    border-radius: 10px;
+    color: white;
+    margin-left: 715px;
+}

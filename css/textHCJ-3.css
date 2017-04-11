@@ -1,0 +1,12 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+div{
+	position: absolute;	
+	top:20px;
+}
+.div2{
+	z-Index:-1;
+	opacity: 0;
+}
